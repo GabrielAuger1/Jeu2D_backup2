@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Authentication.ExtendedProtection;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Les paramètres public peuvent se faire assigner des valeurs dans Unity
+    //Les paramÃ¨tres public peuvent se faire assigner des valeurs dans Unity
     public Rigidbody2D rb;
     public float dirX;
     public bool faitFaceAGauche;
@@ -13,7 +14,6 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpButton;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-
 
     // Start is called before the first frame update
     void Start()
@@ -24,18 +24,19 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.transform.position, 0.25f, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.transform.position, 0.01f, groundLayer);
         jumpButton = Input.GetButtonDown("Jump");
         if (jumpButton && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.y, 5f);
         }
+
     }
 
-    // FixedUpdate est utilisé pour gérer les physiques et simplifie l'usage de diverses fonctionalités
+    // FixedUpdate est utilisÃ© pour gÃ©rer les physiques et simplifie l'usage de diverses fonctionalitÃ©s
     void FixedUpdate()
     {
-        //Le if_else sert à ajuster la position du sprite lors d'un changement de direction.
+        //Le if_else sert Ã  ajuster la position du sprite lors d'un changement de direction.
         //Rb.velocity va changer la vitesse horizontale du joueur avec un Vecteur prenant en parametre dirX.
 
         dirX = Input.GetAxis("Horizontal");
