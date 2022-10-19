@@ -7,11 +7,13 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D rb;
     public PlayerHealth playerHealth;
+    public HealthBar healthBar;
     public int health;
     public float[] position = new float[3];
 
     public void SavePlayer()
     {
+        health = playerHealth.currentHealth;
         SaveSystem.SavePlayer(this);
     }
 
@@ -20,6 +22,8 @@ public class Player : MonoBehaviour
         PlayerData data = SaveSystem.LoadPlayer();
 
         health = data.health;
+        healthBar.SetHealth(health);
+        playerHealth.currentHealth = health;
         Vector3 position;
         position.x = data.position[0];
         position.y = data.position[1];

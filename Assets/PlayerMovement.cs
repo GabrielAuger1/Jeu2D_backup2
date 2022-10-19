@@ -10,7 +10,11 @@ public class PlayerMovement : MonoBehaviour
     public bool faitFaceAGauche;
     public float runSpeed;
     public bool isGrounded;
+    public bool wallCollide;
     private bool jumpButton;
+    [SerializeField] Transform wallCheckLeft;
+    [SerializeField] Transform wallCheckRight;
+    [SerializeField] Transform ceilingCheck;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
 
@@ -22,8 +26,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         isGrounded = Physics2D.OverlapCircle(groundCheck.transform.position, 0.01f, groundLayer);
+        wallCollide = Physics2D.OverlapCircle(wallCheckLeft.transform.position, 0.01f, groundLayer) || Physics2D.OverlapCircle(wallCheckRight.transform.position, 0.01f, groundLayer) || Physics2D.OverlapCircle(ceilingCheck.transform.position, 0.01f, groundLayer);
         jumpButton = Input.GetButtonDown("Jump");
         if (jumpButton && isGrounded)
         {
