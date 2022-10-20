@@ -1,6 +1,7 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Diagnostics;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -28,6 +29,13 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
+        }
+    }
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.collider.name == "Square")
+        {
+            TakeDamage(1);
         }
     }
 }
