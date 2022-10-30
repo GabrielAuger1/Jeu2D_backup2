@@ -1,0 +1,242 @@
+[33mcommit 9c522d771210f301a02196452c5384725411390a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 859d7f7 3950eb7
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 15:58:22 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+    
+    # Conflicts:
+    #       UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit 859d7f7b52b157641959a402e36c0eea1718c75f[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 15:56:15 2022 -0400
+
+    update pour merge
+
+[33mcommit 8c5d6c7b5d8c2e26b42e111684b229864eda7936[m
+Merge: 136f715 2696760
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 15:40:56 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D.git
+    
+    # Conflicts:
+    #       UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit 136f715dcbfba6220599e4e97e3dad1f00c6e71e[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 01:09:30 2022 -0400
+
+    Ajout détection et poursuite vers le joueur sur ennemis
+
+[33mcommit 3950eb7380dfa716713d6068f3752c4f51e736c5[m
+Merge: 6ef25e7 8c5d6c7
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 11:51:14 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+
+[33mcommit 6ef25e7311d1dcbc0a6ae0ecef29625addda23ff[m
+Merge: 143b4ca 2696760
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 11:50:26 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+    
+    # Conflicts:
+    #       Assets/Scenes/SampleScene.unity
+    #       UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit 143b4cab2f9be2020b211b69de1a726acb19fb4a[m
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 10:12:56 2022 -0400
+
+    Amélioration du monde
+
+[33mcommit 2696760b6be1c1069b76d55dbe78f9f2d22d0ed2[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Fri Oct 28 01:09:30 2022 -0400
+
+    Ajout détection et poursuite vers le joueur sur ennemis
+
+[33mcommit 0d9fee088fa1d83a795bf022cdc0aeeb76dc3b82[m
+Merge: 2d412ec 73c664a
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Thu Oct 27 23:37:49 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+
+[33mcommit 818dd76e878411972ad73e244455e9eeabdfa6c8[m
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Thu Oct 27 14:40:10 2022 -0400
+
+    Amélioration de l'univers du jeu
+
+[33mcommit 73c664af9ab0d25b9f8ada4673b6e13552cd6f71[m
+Merge: d917f2e bc0abc4
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Thu Oct 20 09:49:51 2022 -0400
+
+    Test commit modification du monde
+
+[33mcommit d917f2e23a82d5a27a93d254d3a820c46b4b6995[m
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Thu Oct 20 09:48:32 2022 -0400
+
+    Modification du monde
+
+[33mcommit 2d412ec5e21959d880b92c3d25b785b120cd3687[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Wed Oct 19 12:08:57 2022 -0400
+
+    Ajout dash
+    Fix de la sauvegarde qui ne prenait pas en compte les hp
+
+[33mcommit bc0abc42c2cc6596841e1b7d7495f29b8a549f01[m
+Author: Gabriel Auger <84586705+GabrielAuger1@users.noreply.github.com>
+Date:   Thu Oct 6 23:40:14 2022 -0400
+
+    Update README.md
+
+[33mcommit 9cae865c421da36814b804a9e428e03960dc4c79[m
+Author: Gabriel Auger <84586705+GabrielAuger1@users.noreply.github.com>
+Date:   Thu Oct 6 23:21:14 2022 -0400
+
+    Création du fichier README.md
+    
+    Description et explication de la methode de tests pour visual studio avec unity
+
+[33mcommit ea2e7e9c2808be3b75cf3c5714404324b8c1e213[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Tue Oct 4 20:07:34 2022 -0400
+
+    Fix : Fichiers redondant effacés
+
+[33mcommit e5c26731f7c22180c4b39613c99622bc0c839d62[m
+Merge: fd032b2 15fbe14
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Tue Oct 4 20:00:10 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+
+[33mcommit fd032b2818d3c30b4f3ca12b9d4ab9cbe7231337[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Tue Oct 4 19:59:45 2022 -0400
+
+    Ajout de persistence de données et d'un système de sauvegarde (à paufiner)
+    Systeme de point de vie
+
+[33mcommit 15fbe140af41e453bee1325fb2bd9d9e1044c31c[m
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Tue Oct 4 12:30:01 2022 -0400
+
+    Changement du format du menu principal
+
+[33mcommit eaf9292a72ca39ea1d1801f08f3184acf234c5c4[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 21:30:12 2022 -0400
+
+    Réparé : bug qui permettait un double saut non voulu + ajout du layer "Enemy"
+
+[33mcommit 70e5c82a65ac59638b7aff714b0eb3f6b13f38ba[m
+Merge: a17ee4f 55ae21f
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 18:43:54 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+
+[33mcommit a17ee4ff04e2e9803175d9325553d21ef1405f8c[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 18:43:30 2022 -0400
+
+    Ajout barre de vie (Tester les dommages avec la touche "t"
+
+[33mcommit 55ae21fe838b25bf2752f4d53ea485eb2a2bcf1e[m
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 13:42:25 2022 -0400
+
+    Avancement des fonctionnalités du menu
+
+[33mcommit 06f7641f91e3cd6cd8ecd999d277c6a3758f8791[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 01:14:43 2022 -0400
+
+    Ajustement: menu pause ne doit pas etre actif a linitialisation
+
+[33mcommit 9020cec0f0f380b558b4dd37f7e2fcfebb68a8df[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 00:59:36 2022 -0400
+
+    Bouton de retour au menu principal fonctionnel
+
+[33mcommit 5eae3573b533ebd0868b25bec4375ae976775362[m
+Merge: e37cd0e f060517
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Mon Oct 3 00:45:49 2022 -0400
+
+    Merge branch 'master' of https://github.com/GabrielAuger1/Jeu2D
+    
+    # Conflicts:
+    #       Assets/Scenes/SampleScene.unity
+    #       Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    #       Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    #       UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+    #       UserSettings/Layouts/default-2021.dwlt
+
+[33mcommit e37cd0e68e89a194021acb53e9a9fe753c6a79e6[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Thu Sep 29 15:15:18 2022 -0400
+
+    Commit test avec Git Gui
+    
+    Signed-off-by: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+
+[33mcommit f060517eba84685aed3c65752e0100d9fd49bf87[m
+Merge: fed4e64 e2d5b45
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Sun Oct 2 19:27:23 2022 -0400
+
+    Commit du menu
+
+[33mcommit fed4e64e690a80b585d44b7904d6a83c71e845c2[m
+Author: Guillaume Blais <guillaume.blais@edu.cegepgarneau.ca>
+Date:   Sun Oct 2 19:26:20 2022 -0400
+
+    Commit du menu
+
+[33mcommit e2d5b45fa6b86ed46451e3b30f7f94a971d80814[m
+Author: GabrielAuger1 <gauger@edu.cegepgarneau.ca>
+Date:   Thu Sep 29 15:15:18 2022 -0400
+
+    Commit test avec Git Gui
+
+[33mcommit ded3eacf422102bb8fe86e2baca9450a65ba7a30[m
+Author: Gabriel Auger <gauger@edu.cegepgarneau.ca>
+Date:   Thu Sep 1 18:14:28 2022 -0400
+
+    Ajout Jump et TileMap + Tile Palette
+
+[33mcommit 185c8139186803ab7e21d325d535f209829e53b3[m
+Author: Gabriel Auger <gauger@edu.cegepgarneau.ca>
+Date:   Wed Aug 31 15:43:34 2022 -0400
+
+    Script de mouvement de base
+
+[33mcommit 116dff08b723403997611f12293b52aeba86c46a[m
+Author: Gabriel Auger <gauger@edu.cegepgarneau.ca>
+Date:   Wed Aug 31 13:35:58 2022 -0400
+
+    Ajout formes de base
+
+[33mcommit a0941cf3b48cbcf040147accb90c169e980052b7[m
+Author: Gabriel Auger <gauger@edu.cegepgarneau.ca>
+Date:   Wed Aug 31 12:40:25 2022 -0400
+
+    Ajoutez des fichiers projet.
+
+[33mcommit 26fc382a05ce7faa5bd31142dfc7251061d955d4[m
+Author: Gabriel Auger <gauger@edu.cegepgarneau.ca>
+Date:   Wed Aug 31 12:40:23 2022 -0400
+
+    Ajouter .gitattributes et .gitignore
