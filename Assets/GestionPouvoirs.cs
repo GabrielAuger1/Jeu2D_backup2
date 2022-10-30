@@ -86,5 +86,6 @@ public class GestionPouvoirs : MonoBehaviour
             PlayerHealth.damage = 1;
         }
         #endregion
+
     }
 }
