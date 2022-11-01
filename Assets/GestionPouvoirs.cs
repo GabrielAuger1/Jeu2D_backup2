@@ -10,14 +10,18 @@ public class GestionPouvoirs : MonoBehaviour
     [SerializeField] private float dashRightTimer;
     [SerializeField] private float freezeTimer;
     [SerializeField] private float gravityTimer;
-    [SerializeField] public float dashCoolDown;
-    public Rigidbody2D rb;
-    public PlayerMovement PlayerMovement;
-    public PlayerHealth PlayerHealth;
+    [SerializeField] private float dashCoolDown;
+    private Rigidbody2D rb;
+    private PlayerMovement PlayerMovement;
+    private PlayerHealth PlayerHealth;
 
-    private void Start()
+    private void Awake()
     {
         gravityTimer = 0;
+        dashCoolDown = 120;
+        rb = GetComponent<Rigidbody2D>();
+        PlayerMovement = GetComponent<PlayerMovement>();
+        PlayerHealth = GetComponent<PlayerHealth>();
     }
 
     // Update is called once per frame
@@ -77,13 +81,14 @@ public class GestionPouvoirs : MonoBehaviour
             PlayerMovement.runSpeed = 0;
             rb.gravityScale = 0.5f;
             PlayerHealth.damage = 0;
-
+            gameObject.layer = 10;
         }
         else if (gravityTimer <= 0)
         {
             PlayerMovement.runSpeed = 3;
             rb.gravityScale = 2;
             PlayerHealth.damage = 1;
+            gameObject.layer = 6;
         }
         #endregion
 
