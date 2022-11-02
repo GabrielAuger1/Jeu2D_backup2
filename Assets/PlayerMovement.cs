@@ -19,14 +19,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        wallCheckLeft = GetComponentInChildren<Transform>().Find("wallCheckLeft");
-        wallCheckRight = GetComponentInChildren<Transform>().Find("wallCheckRight");
-        ceilingCheck = GetComponentInChildren<Transform>().Find("ceilingCheck");
-        groundCheck = GetComponentInChildren<Transform>().Find("groundCheck");
-        groundLayer = LayerMask.GetMask("Ground");
     }
 
     // Update is called once per frame

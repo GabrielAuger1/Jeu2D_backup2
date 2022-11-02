@@ -11,13 +11,6 @@ public class Player : MonoBehaviour
     public int health;
     public float[] position = new float[3];
 
-    public void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        playerHealth = GetComponent<PlayerHealth>();
-        healthBar = FindObjectOfType<HealthBar>();
-    }
-
     public void SavePlayer()
     {
         health = playerHealth.currentHealth;

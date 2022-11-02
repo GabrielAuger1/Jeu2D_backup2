@@ -10,9 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public HealthBar healthBar;
     public int damage;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        healthBar = FindObjectOfType<HealthBar>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
